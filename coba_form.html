@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Sederhana</title>
+  <link rel="icon" type="image/png" href="icon.png" sizes="16x16" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="/action_page.php" method="post" target="_blank">
+    <label for="depan">Nama depan :</label><br>
+    <input type="text" id="depan" name="i_name" value="Adipati"><br>
+    <label for="n_belakang">Nama Belakang :</label><br>
+    <input type="text" id="n_belakang" name="i_belakang" value="Rama"><br><br>
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Reset">
+  </form>
+  <p>
+    Pertama, saat menekan tombol "Reset", semua input direset menjadi tampilan default. Kemudian, setelah mengisi data dan menekan tombol "Kirim", data formulir dikirim ke tampilan halaman bernama "/action_page.php" dengan metode "post" halaman hasil akan dibuka di tab baru karena menggunakan atribut target="_blank". Kesimpulan dari ujicoba ini adalah bahwa atribut target="_blank" digunakan untuk membuka hasil formulir di tab atau jendela baru, sedangkan metode "post" digunakan untuk mengirim data formulir dengan metode yang lebih aman dan cocok untuk mengirim data yang sensitif atau besar
+  </p>
+</body>
+</html>
